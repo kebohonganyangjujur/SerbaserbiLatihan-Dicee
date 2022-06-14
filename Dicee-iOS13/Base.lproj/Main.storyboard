@@ -20,31 +20,75 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="6X3-5H-sJP">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="GqL-VQ-Hp9">
-                                <rect key="frame" x="87" y="122" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceFour" translatesAutoresizingMaskIntoConstraints="NO" id="pYd-Be-PYe">
-                                <rect key="frame" x="37" y="338" width="140" height="140"/>
+                                <rect key="frame" x="20" y="338" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="Rcx-wj-Ici">
-                                <rect key="frame" x="237" y="338" width="140" height="140"/>
+                                <rect key="frame" x="124" y="338" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIa-wT-f79">
-                                <rect key="frame" x="102" y="614" width="215" height="66"/>
+                                <rect key="frame" x="184" y="631" width="152" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.45098042490000001" green="0.4941176176" blue="0.18039217590000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Roll Dice">
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="45"/>
+                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SRe-RI-EOK"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="N4e-WA-naX">
+                                <rect key="frame" x="221" y="338" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="Rv0-jk-nmE">
+                                <rect key="frame" x="319" y="338" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceFour" translatesAutoresizingMaskIntoConstraints="NO" id="t1h-4m-qKZ">
+                                <rect key="frame" x="22" y="421" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="BdH-lh-iJC">
+                                <rect key="frame" x="126" y="421" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="OFi-w6-2mb">
+                                <rect key="frame" x="223" y="421" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="S7d-5Y-Diq">
+                                <rect key="frame" x="321" y="421" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceFour" translatesAutoresizingMaskIntoConstraints="NO" id="Uvd-Ka-HKD">
+                                <rect key="frame" x="76" y="618" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="GqL-VQ-Hp9">
+                                <rect key="frame" x="123" y="125" width="168" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="z5a-ZX-oBj">
+                                <rect key="frame" x="288" y="108" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="OgK-8m-MRI">
+                                <rect key="frame" x="290" y="191" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceFour" translatesAutoresizingMaskIntoConstraints="NO" id="RfG-uq-qQ6">
+                                <rect key="frame" x="53" y="108" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceFour" translatesAutoresizingMaskIntoConstraints="NO" id="yzG-ey-T8S">
+                                <rect key="frame" x="55" y="191" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -57,7 +101,18 @@
                     </view>
                     <connections>
                         <outlet property="dicee1" destination="pYd-Be-PYe" id="Yjq-w3-feG"/>
+                        <outlet property="dicee10" destination="RfG-uq-qQ6" id="vl4-yX-NbT"/>
+                        <outlet property="dicee11" destination="yzG-ey-T8S" id="PUt-Fd-ykN"/>
+                        <outlet property="dicee12" destination="z5a-ZX-oBj" id="LR5-9e-fRl"/>
+                        <outlet property="dicee13" destination="OgK-8m-MRI" id="R5l-OZ-FGn"/>
                         <outlet property="dicee2" destination="Rcx-wj-Ici" id="DAO-Op-NGv"/>
+                        <outlet property="dicee3" destination="N4e-WA-naX" id="LQ8-mD-eFZ"/>
+                        <outlet property="dicee4" destination="Rv0-jk-nmE" id="q4k-cl-xRq"/>
+                        <outlet property="dicee5" destination="t1h-4m-qKZ" id="BsP-H1-X2z"/>
+                        <outlet property="dicee6" destination="BdH-lh-iJC" id="At7-kZ-yJW"/>
+                        <outlet property="dicee7" destination="OFi-w6-2mb" id="Emd-kl-Cis"/>
+                        <outlet property="dicee8" destination="S7d-5Y-Diq" id="v54-gP-9Jk"/>
+                        <outlet property="dicee9" destination="Uvd-Ka-HKD" id="H3S-CM-1r5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
